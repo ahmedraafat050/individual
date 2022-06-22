@@ -1,0 +1,495 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+    --mainColor: #983333;;
+}
+*{
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+section{
+    width: 100%;
+    min-height: 100vh;
+    padding: 50px 200px;
+    background-repeat: no-repeat;
+}
+
+.main{
+    padding-left: 50%;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-image: url("img/bg-img-01.jpg");
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main h1{
+    font-size: 4em;
+    margin-bottom: 0.5em;
+    letter-spacing: 1px;
+    color: #fff;
+    font-weight: 300;
+    text-shadow: #000 1px 4px 10px;
+}
+.main p{
+    margin-bottom: 1em;
+    color: #fff;
+    font-size:1.3em ;
+    font-weight: 200;
+}
+
+.main a{
+    display: inline-block;
+    text-decoration: none;
+    font-size:1.5em ;
+    padding: 12px 36px;
+    color: #fff;
+    background-color: var(--mainColor) ;
+    margin-top:1em ;
+    border-radius: 3px;
+    align-self: flex-start;
+}
+
+.cards{
+    background-image: url("img/bg-img-02.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.cards div{
+    background-color: #ffffffbb;
+    border-radius: 2px;
+    width: 22em;
+    height: 28em;
+    padding:48px;
+    margin: 32px;
+
+}
+
+.cards div h2{
+    margin-bottom: 16px;
+    font-weight: 600;
+    font-size: 32px;
+
+}
+
+.cards div p{
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.cards div a{
+    display: inline-block;
+    text-decoration: none;
+    font-size:1.5em ;
+    padding: 12px 80px;
+    color: #fff;
+    background-color: var(--mainColor) ;
+    margin-top:1em ;
+    border-radius: 3px;
+    opacity: 100%;
+}
+
+.HTML5{
+    padding-left: 50%;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-image: url("img/bg-img-03.jpg");
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.HTML5 h2 {
+    color: #000;
+    background-color: #ffffff99;
+    padding: 16px;
+    margin-bottom: 12px;
+    font-weight: 600;
+    width: 13em;
+    font-size: 32px;
+}
+
+.HTML5 p {
+    background-color: #ffffff99;
+    padding: 22px;
+    margin-bottom: 8px;
+    width: 416px;
+    font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 28px;
+}
+
+.HTML5 a{
+    display: inline-block;
+    text-decoration: none;
+    font-size:1.5em ;
+    padding: 12px 36px;
+    color: #fff;
+    background-color: var(--mainColor) ;
+    margin-top:8px ;
+    border-radius: 3px;
+    align-self: flex-end;
+    margin-right: 70px;
+}
+
+.two{
+    background-image: url("img/bg-img-04.jpg");
+}
+
+.two div{
+    margin: 8px;
+    height: 22em;
+    
+}
+
+.two div h2{
+    font-size: 24px;
+    font-weight: 300;
+    color: green;
+}
+
+.two div p{
+    font-weight: 300;
+    font-size: 17px;
+}
+
+.imgs{
+    background-image: url("img/bg-img-05.jpg");
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.imgs .row{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.imgs .row a img {
+    width: 250px;
+    height: 250px;
+    margin: 8px;
+    transition: 0.5s ease;
+
+}
+
+.imgs .row a img:hover{
+    transform:scale(1.1) ;
+}
+
+.contact{
+    background-image: url("img/bg-img-06.jpg");
+}
+
+.contact .flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact .flex div h2 {
+    font-weight: 500;
+    font-size: 44px;
+    margin-bottom: 28px;
+}
+
+.contact .flex div form{
+    display: flex;
+    flex-direction: column;
+}
+
+.contact .flex div form input {
+    width: 339px;
+    height: 40px;
+    margin-bottom: 4px;
+    padding: 8px;
+    opacity: 60%;
+}
+.contact .flex div form textarea{
+    margin-bottom: 16px;
+    opacity: 60%;
+}
+
+.contact .flex div form [type="submit"]{
+    opacity: 100%;
+    background-color: var(--mainColor);
+    font-size: 22px;
+    border: none;
+    color: #fff;
+    padding: 12px 48px;
+    height: fit-content;
+    border-radius: 3px;
+    width: fit-content;
+    align-self: flex-end;
+}
+
+.contact .flex .par{
+margin-left: 48px;
+}
+
+.contact .flex .par p{
+    font-size: 20px;
+    color: #fff;
+    margin-bottom: 32px;
+}
+
+.contact footer{
+    margin-top: 100px;
+    color: #fff;
+    text-align: center;
+    font-size: 20px;
+}
+
+
+@media (max-width: 1026px){
+
+    body{
+        font-size: 12px;
+    }
+
+    section{
+        width: 100%;
+        min-height: 100vh;
+        padding: 50px 16px;
+        background-repeat: no-repeat;
+    }
+
+    .main{
+        padding: 16px;
+    }
+
+    .cards{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .cards div{
+        margin: 8px;
+    }
+
+    .cards div h2{
+        margin-bottom: 12px;
+        font-weight: 600;
+        font-size: 20px;
+    
+    }
+    
+    .cards div p{
+        font-weight: 400;
+        font-size: 14px;
+    }
+    
+    .cards div a{
+        font-size:1em ;
+        padding: 6px 50px;
+        color: #fff;
+        margin-top:1em ;
+    }
+
+    .HTML5{
+        padding-left: 16px;
+        background-position: center;
+        background-size: cover;
+        background-attachment: fixed;
+        background-image: url("img/bg-img-03.jpg");
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .HTML5 a{
+        font-size:16px ;
+        padding: 8px 32px;
+        margin-top:8px ;
+        border-radius: 3px;
+        align-self: flex-end;
+    }
+
+    .two div{
+    margin: 8px;
+    height: 22em;
+
+    }
+
+    .two div h2{
+    font-size: 16px;
+    font-weight: 300;
+    color: green;
+    }
+
+    .two div p{
+    font-weight: 300;
+    font-size: 12px;
+    }
+
+    .imgs .row a img {
+    width: 100px;
+    height: 100px;
+    margin: 4px;
+
+    }
+    .contact{
+        background-image: url("img/bg-img-06.jpg");
+    }
+    
+    .contact .flex{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .contact .flex div h2 {
+        font-weight: 500;
+        font-size: 22px;
+        margin-bottom: 16px;
+    }
+    
+    .contact .flex div form input {
+        width: 250px;
+        height: 30px;
+        margin-bottom: 2px;
+    }
+    .contact .flex div form textarea{
+        margin-bottom: 16px;
+        opacity: 60%;
+    }
+    
+    .contact .flex div form [type="submit"]{
+        font-size: 16px;
+    }
+    
+    .contact .flex .par{
+    margin-top: 16px;
+    }
+    
+    .contact .flex .par p{
+        font-size: 16px;
+        margin-bottom: 16px;
+    }
+    
+    .contact footer{
+        margin-top: 100px;
+        color: #fff;
+        text-align: center;
+        font-size: 14px;
+    }
+
+}
+
+@media (max-width: 640px){
+    
+section{
+    width: 100%;
+    min-height: 100vh;
+    padding: 50px 16px;
+    background-repeat: no-repeat;
+}
+    .HTML5{
+        padding-left: 16px;
+    }
+    
+    .HTML5 h2 {
+        color: #000;
+        background-color: #ffffff99;
+        padding: 16px;
+        margin-bottom: 12px;
+        font-weight: 600;
+        width: 350px;
+        font-size: 28px;
+    }
+    
+    .HTML5 p {
+        width: 350px;
+        font-size: 16px;
+    }
+}
+
+
+
+@media (max-width: 300px){
+    
+    .HTML5{
+        padding-left: 16px;
+    }
+
+    .HTML5 h2 {
+        padding: 4px;
+        margin-bottom: 8px;
+        font-weight: 600;
+        width: 250px;
+        font-size:16px;
+    }
+
+    .HTML5 p {
+        padding: 11px;
+        margin-bottom: 8px;
+        width:250px;
+        font-size: 11px;
+        letter-spacing: 1px;
+        line-height: 28px;
+    }
+
+    .HTML5 a{
+        font-size:1em ;
+        padding: 6px 16px;
+        margin-top:8px ;
+    }
+    .contact .flex div h2 {
+        font-weight: 500;
+        font-size: 16px;
+        margin-bottom: 14px;
+    }
+    .contact .flex div form input {
+        width: 250px;
+        height: 20px;
+        margin-bottom: 4px;
+        padding: 8px;
+        opacity: 60%;
+    }
+    .contact .flex div form textarea{
+        margin-bottom: 16px;
+        opacity: 60%;
+        width: 250px;
+    }
+    
+    .contact .flex div form [type="submit"]{
+        padding: 11px 32px;
+        height: fit-content;
+    }
+    
+    .contact .flex .par{
+    margin-left: 16px;
+    }
+    
+    .contact .flex .par p{
+        font-size: 11px;
+        margin-bottom: 22px;
+    }
+    
+    .contact footer{
+        margin-top: 100px;
+        font-size: 11px;
+    }
+}
+
+
